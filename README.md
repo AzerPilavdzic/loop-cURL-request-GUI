@@ -1,13 +1,25 @@
-# Loop cURL Request GUI
-A small Python GUI tool for running cURL requests in a loop with notifications and logging.
+Loop cURL Request GUI
 
-Simple cURL Runner with GUI and Auto-Loop This tool provides a lightweight Python GUI for running cURL requests on Linux (Debian/Ubuntu).
+A small Python GUI tool for running cURL requests in a loop with desktop notifications and automatic logging.
 
-You can paste any cURL command, choose an interval in minutes, and start an automated background loop.
+🚀 Simple cURL Runner with GUI + Auto-Loop
 
-Each loop execution shows a desktop notification (notify-send) and logs the full API response to a file.
+This tool provides a lightweight Python GUI for repeatedly executing any cURL command on Linux (Debian/Ubuntu).
 
-The loop automatically stops when the GUI window is closed.
+⭐ Features
 
-Run command with:
+🖥️ Paste any cURL command directly into the GUI
+
+⏱️ Choose a loop interval (in minutes)
+
+🔁 Runs your cURL command automatically in the background
+
+🔔 Desktop notifications on each execution (notify-send)
+
+📄 Full API response logging saved to a file
+
+❌ Loop stops automatically when you close the GUI
+
+
+▶️ Command
 python3 curl_loop_gui.py
