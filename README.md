@@ -21,5 +21,5 @@ This tool provides a lightweight Python GUI for repeatedly executing any cURL co
 ❌ Loop stops automatically when you close the GUI
 
 
-▶️ Command
+▶️ Command:
 python3 curl_loop_gui.py
