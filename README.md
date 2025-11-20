@@ -8,3 +8,6 @@ You can paste any cURL command, choose an interval in minutes, and start an auto
 Each loop execution shows a desktop notification (notify-send) and logs the full API response to a file.
 
 The loop automatically stops when the GUI window is closed.
+
+Run command with:
+python3 curl_loop_gui.py
